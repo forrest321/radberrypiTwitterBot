@@ -7,3 +7,9 @@ type TwitterCredentials struct {
 	AccessToken       string
 	AccessTokenSecret string
 }
+
+//AmazonCredentials for the api
+type AmazonCredentials struct {
+	AccessKeyID     string
+	SecretAccessKey string
+}
